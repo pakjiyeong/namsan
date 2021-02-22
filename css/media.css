@@ -1,0 +1,115 @@
+
+@media(max-width:1251px){
+    html, body {
+        font-size: 14px;
+    }
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .navi {
+        display: none;
+    }
+    .tabcontent > .dulle-imagebox {
+        left: 350px;
+    }
+    .tabcontent > .dulle-textbox {
+        width: 45%;
+    }
+}
+@media(max-width:1000px){
+    html, body {
+        font-size: 13px;
+    }
+    .container {
+        width: 780px;
+    }
+    .story-background > .container > div,
+    .section04 > .container > div {
+        width: 100%;
+        height: 360px;
+        float: inherit;
+    }
+    .story-center, .around-center {
+        margin: 0;
+    }
+    #dulle .dulle-button {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #dulle .tablinks {
+        width: 19%;
+        margin: 0 .5%;
+    }
+    #dulle .dulle-map,
+    #dullecourse01 > .marker1,
+    #dullecourse02 > .marker2,
+    #dullecourse03 > .marker3,
+    #dullecourse04 > .marker4,
+    #dullecourse05 > .marker5 {
+        left: -46%;
+    }
+    #dulle .tabcontent {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #dulle .tabcontent > div:first-child {
+        width: 100%;
+        margin-top: 15%;
+    }
+    #dulle .tabcontent > .dulle-imagebox {
+        left: 62%;
+    }
+    #around > .titlebox {
+        color: #343434;
+    }
+    #around .around-background {
+        display: none;
+    }
+    #around .around-title:after {
+        display: none;
+    }
+    .section06 .way-map {
+        width: 100%;
+        margin-right: 0;
+    }
+    .section06 .way-information {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+}
+@media(max-width:780px) {
+    html, body {
+        font-size: 12px;
+    }
+    .container {
+        width: 500px;
+    }
+    .tabcontent .dulle-imagebox {
+        bottom: 255px;
+        width: 110px;
+        height: 110px;
+    }
+    .tabcontent .dulle-imagebox > img {
+        height: 110px;
+    }
+}
+@media(max-width:500px) {
+    html, body {
+        font-size: 11px;
+    }
+    .container {
+        width: 400px;
+    }
+    .section06 .way-information img {
+        width: 45px;
+    }
+}
+@media(max-width:400px) {
+    html, body {
+        font-size: 10px;
+    }
+    .container {
+        width: 320px;
+    }
+}

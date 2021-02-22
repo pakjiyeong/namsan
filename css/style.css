@@ -1,0 +1,427 @@
+@import url('reset.css');
+@import url('media.css');
+@import url('../slick/slick.css');
+@import url('../slick/slick-theme.css');
+
+/* ---------------------------------------------------------HEADER AREA START */
+.header {
+    position: fixed;
+    width: 100%;
+    height: 88px;
+    background: rgba(3,3,3,.3);
+    color: #f9f9f9;
+    z-index: 100;
+}
+.header .logo {
+    float: left;
+    padding: 22px 0;
+}
+.header img {
+    width: 145px;
+}
+.header .navi {
+    float: right;
+    line-height: 88px;
+}
+.navi ul > li {
+    float: left;
+    margin-left: 85px;
+}
+.navi ul > li:hover a {
+    border-bottom: 3px solid #194c42;
+}
+.navi ul > li > a {
+    font-size: 1.05rem;
+    padding: 32px 0;
+}
+.ham {
+    position: absolute;
+    z-index: 1000;
+    top: 20px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
+    background-size: 100%;
+  }
+  .showClose {
+    background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg");
+  }  
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+  }
+  .showNav {
+    transform: translateY(0);
+  }
+  .navbar > ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .navbar > ul > li > a {
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+  }
+  .navbar > ul > li > a:hover, .navbar > ul > li > a:focus {
+    border-bottom: 2px solid white;
+  }
+/* ---------------------------------------------------------HEADER AREA END */
+/* ---------------------------------------------------------SECTION01 - (HOME) AREA START */
+.section01{
+    position: relative;
+    width: 100%;
+    height: 741px;
+    background-color: ivory;
+    background-image: url(../images/Namsan-Park.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+.section01 .home-textbox {
+    position: absolute;
+    margin-left: 20%;
+    top: 45%;
+}
+.home-textbox h1 {
+    font-size: 2.8rem;
+    letter-spacing: -3px;
+    color: #f9f9f9;
+}
+.home-textbox span {
+    font-size: 3.75rem;
+    margin-left: 5px;
+}
+.section01 .home-imagebox {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+/* ---------------------------------------------------------SECTION01 - (HOME) AREA END */
+/* ---------------------------------------------------------SECTION02 - (STORY) AREA START */
+.story-background {
+    padding: 50px 0;
+    background: #f7f7f7;
+}
+.story-imagebox {
+    color: #194c42;
+    padding: 30px 0;
+}
+.story-titlebox h2 {
+    font-size: 4.5rem;
+    display: inline;
+}
+.story-titlebox p {
+    font-size: 0.81rem;
+}
+.story-titlebox span {
+    font-size: 1.25rem;
+    margin: 0 5px;
+}
+.story-textbox {
+    padding: 20px 0;
+}
+.story-textbox p {
+    line-height: 30px;
+}
+/* ---------------------------------------------------------SECTION02 - (STORY) AREA END */
+/* ---------------------------------------------------------SECTION03 - (DULLE) AREA START */
+.section03{
+    height: 600px;
+    margin-bottom: 80px;
+}
+.section03 .container {
+    position: relative;
+    height: 100%;
+}
+.dulle-button {
+    position: relative;
+    width: 375px;
+    z-index: 2;
+}
+.dulle-textbox {
+    width: 40%;
+}
+.dulle-map {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/dulle-bg-map.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#dullecourse01 > .marker1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/dulle-map-course1.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#dullecourse02 > .marker2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/dulle-map-course2.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#dullecourse03 > .marker3 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/dulle-map-course3.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#dullecourse04 > .marker4 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/dulle-map-course4.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#dullecourse05 > .marker5 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/dulle-map-course5.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dulle-textbox > p {
+	font-size: 1.25rem;
+}
+.dulle-textbox > p > span {
+	font-size: 1.87rem;
+}
+.dulle-textbox > h3 {
+	font-size: 1.87rem;
+	padding: 5px 0;
+	border-bottom: 2px solid #194c42;
+}
+.dulle-textbox > h3 span {
+	font-size: 2.81rem;
+}
+.dulle-textbox > p:last-child {
+	text-align: right;
+	margin: 10px 0;
+}
+.dulle-imagebox {
+	position: absolute;
+	left: 500px;
+	bottom: 180px;
+	width: 180px;
+	height: 180px;
+	border-radius: 100px 100px 100px 0;
+	padding: 10px;
+	overflow: hidden;
+	background: #194c42;
+    z-index: 100;
+}
+.dulle-imagebox > img {
+	height: 180px;
+	border-radius: 100%
+}
+/* ---------------------------------------------------------SECTION03 - (DULLE) AREA END */
+/* ---------------------------------------------------------SECTION04 - (AROUND) AREA START */
+.section04 {
+    position: relative;
+}
+.section04 .titlebox {
+    color: #f9f9f9;
+}
+.around-background {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 600px;
+    transition: all 1s;
+    background-image: url(../images/around-image-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.around-wrap {
+    position: relative;
+    width: 30%;
+    height: 600px;
+    padding: 30px 0;
+    background: #343434;
+    color: #f9f9f9;
+    transition: all 1.5s;
+}
+.around-wrap:hover .hover-color {
+    background: rgba(0,0,0, .5);
+}
+.hover-color {
+    width: 86%;
+    height: 86%;
+    margin: 0 auto;
+    padding: 3%;
+    transition: all 1s;
+}
+.around-image-01 {
+    background-image: url(../images/around-image-01.jpeg);
+    background-size: cover;
+}
+.around-image-02 {
+    background-image: url(../images/around-image-02.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.around-image-03 {
+    background-image: url(../images/around-image-03.jpeg);
+    background-size: cover;
+    background-position:center;
+}
+.around-sub-title {
+    width: 50%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1.2rem;
+    border: 2px solid #f9f9f9;
+    border-radius: 10px;
+    margin: 20px auto;  
+}
+.around-title {
+    font-size: 2.5rem;
+    padding: 50px 0;
+}
+.around-title:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 0;
+    margin: 20px auto;
+    background: #f9f9f9;
+    transition: all 1s;
+}
+.around-wrap:hover .around-title:after {
+    height: 120px;
+}
+.around-wrap:hover .around-title~p,
+.around-wrap:hover .around-title~a {
+    display: inherit;
+}
+.around-wrap:hover .around-title~a:hover {
+    background: #f9f9f9;
+    color: #343434;
+}
+.around-title~p {
+    font-size: 1.2rem;
+    padding: 3px 0;
+    display: none;
+}
+.click {
+    width: 80px;
+    margin: 20px auto;
+    padding: 5px;
+    border: 1px solid #f9f9f9;
+    border-radius: 5px;
+    font-weight: bold;
+    display: none;
+}
+/* ---------------------------------------------------------SECTION04 - (AROUND) AREA END */
+/* ---------------------------------------------------------SECTION05 - (GALLERY) AREA START */
+.section05{
+    position: relative;
+    background-color: rgb(255, 238, 238);
+}
+.gallery-wrap {
+    font-family:Arial;
+    width:100%;
+    display:block;
+    margin:0 auto;
+  }
+.gallery-wrap p {
+    width: 100%;
+      background: #f9f9f9;
+      color: #194c42;
+      /* font-size: 20px; */
+      line-height: 50px;
+      position: relative;
+      text-align: center;
+  }
+  .slider-for {
+      height: 500px;
+  }
+  .slider-for img{
+    width: 100%;
+  }
+  .slider-nav img {
+    width: 100%;
+  }
+/* ---------------------------------------------------------SECTION05 - (GALLERY) AREA END */
+/* ---------------------------------------------------------SECTION06 - (WAY) AREA START */
+.section06 {
+    background: #313131;
+}
+.section06 .titlebox {
+    color: #f9f9f9;
+}
+.way-map {
+    width: 45%;
+    float: right;
+    margin-right: 5%;
+}
+#map {
+    width: 100%;
+    height: 350px;
+}
+.way-information {
+    width: 50%;
+    float: right;
+    color: #f9f9f9;
+}
+.way-information li {
+    padding: 15px 0;
+}
+.way-information li:first-child {
+    padding-top: 0;
+}
+.way-information img {
+    width: 50px;
+    padding-right: 20px;
+    float: left;
+    text-align: center;
+}
+.way-information p {
+    float: left;
+    line-height: 40px;
+    font-size: 1.06rem;
+}
+/* ---------------------------------------------------------SECTION06 - (WAY) AREA END */

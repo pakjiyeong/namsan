@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>남산</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">    
+    <script src="https://code.jquery.com/jquery-1.8.1.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <!-- ----------------------------------------------------------------HEADER AREA START -->
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <a href="#"><img src="images/logo.png" alt="남산로고"></a>
+                </div>
+                <nav class="navi">
+                    <ul>
+                        <li><a href="#home">홈</a></li>
+                        <li><a href="#story">남산 이야기</a></li>
+                        <li><a href="#dulle">둘레길</a></li>
+                        <li><a href="#around">남산주변은</a></li>
+                        <li><a href="#gallery">갤러리</a></li>
+                        <li><a href="#way">오시는길</a></li>
+                    </ul>
+                </nav>
+                <button class="ham"></button>
+                <!-- <nav class="navbar">
+                    <ul>
+                        <li><a href="#home">홈</a></li>
+                        <li><a href="#story">남산 이야기</a></li>
+                        <li><a href="#dulle">둘레길</a></li>
+                        <li><a href="#around">남산주변은</a></li>
+                        <li><a href="#gallery">갤러리</a></li>
+                        <li><a href="#way">오시는길</a></li>
+                    </ul>
+                </nav> -->
+            </div>
+        </header>
+        <!-- ----------------------------------------------------------------HEADER AREA END -->
+        <!-- ----------------------------------------------------------------SECTION-01(HOME) AREA START -->
+        <section class="section01" id="home">
+            <div class="home-textbox">
+                <h1>서울의 중심,<span>남산</span></h1>
+            </div>
+            <!-- <img src="images/home-illust.png" alt="남산일러스트" class="home-imagebox"> -->
+        </section>
+        <!-- ----------------------------------------------------------------SECTION-01(HOME) AREA END -->
+        <!-- ----------------------------------------------------------------SECTION-02(STORY) AREA START -->
+        <section class="section02 " id="story">
+            <div class="titlebox">
+                <h1>NAMSAN<span>STORY</span></h1>
+                <p>숫자로 만나는 남산 이야기</p>
+            </div>
+            <div class="story-background clear-fix">
+                <div class="container">
+                    <div class="story-wrap">
+                        <div class="story-imagebox">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <div class="story-titlebox">
+                            <h2 id="counter1">2,896,887</h2><span>m2</span>
+                        </div>
+                        <div class="story-textbox">
+                            <p>605.2km²의 서울의 면적.</p>
+                            <p>그 중심 부분을 차지하고있다.</p>
+                            <p>남산에 오르면 서울의 중심점을 볼 수 있다.</p>
+                        </div>
+                    </div>
+                    <div class="story-center">
+                        <div class="story-imagebox">
+                            <i class="fas fa-camera-retro"></i>
+                        </div>
+                        <div class="story-titlebox">
+                            <h2 id="counter2">840</h2><span>만명</span>
+                        </div>
+                        <div class="story-textbox">
+                            <p>서울의 대표 관광지로써</p>
+                            <p>남산은 연간 840만명의</p>
+                            <p>방문객이 다녀가고있다.</p>
+                        </div>
+                    </div>
+                    <div class="story-wrap">
+                        <div class="story-imagebox">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <div class="story-titlebox">
+                            <h2 id="counter3">700</h2><span>여개</span>
+                        </div>
+                        <div class="story-textbox">
+                            <p>조선 시대 통신 제도의 하나인</p>
+                            <p>약 700여개 봉수제. 그 종점엔</p>
+                            <p>남산봉수대지가 있다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ----------------------------------------------------------------SECTION-02(STORY) AREA END -->
+        <!-- ----------------------------------------------------------------SECTION-03(DULLE) AREA START -->
+        <section class="section03" id="dulle">
+            <div class="titlebox">
+                <h1>NAMSAN<span>DULLE</span></h1>
+                <p>도심 속 초록 향기를 따라 걸어서 만나는 진짜 남산</p>
+            </div>
+            <div class="container">
+                <!-- Tab links -->
+                <div class="dulle-button tab">
+                    <button class="tablinks" onclick="openCity(event, 'dullecourse01')" id="defaultOpen">북측순환로</button>
+                    <button class="tablinks" onclick="openCity(event, 'dullecourse02')">산림숲길</button>
+                    <button class="tablinks" onclick="openCity(event, 'dullecourse03')">야생화원길</button>
+                    <button class="tablinks" onclick="openCity(event, 'dullecourse04')">자연생태길</button>
+                    <button class="tablinks" onclick="openCity(event, 'dullecourse05')">역사문화길</button>
+                </div>
+                <div class="dulle-map">
+                </div>
+                <!-- Tab content -->
+                <div id="dullecourse01" class="tabcontent">
+                    <div class="dulle-textbox">
+                        <p>제<span>1</span>코스</p>
+                        <h3><span>케이블카</span>에서 <span> 국립극장</span>까지</h3>
+                        <p>(약 3.4km)</p>
+                    </div>
+                    <div class="dulle-imagebox">
+                        <img src="images/dulle-course1.jpg" alt="북측순환로사진">
+                    </div>
+                    <div class="markers marker1"></div>
+                </div>
+                
+                <div id="dullecourse02" class="tabcontent">
+                    <div class="dulle-textbox">
+                        <p>제<span>2</span>코스</p>
+                        <h3><span>국립극장</span>에서 <span> 야생화원</span>까지</h3>
+                        <p>(약 910m)</p>
+                    </div>
+                    <div class="dulle-imagebox">
+                        <img src="images/dulle-course2.jpg" alt="야생화원길사진">
+                    </div>
+                    <div class="markers marker2"></div>
+                </div>
+                
+                <div id="dullecourse03" class="tabcontent">
+                    <div class="dulle-textbox">
+                        <p>제<span>3</span>코스</p>
+                        <h3><span>야생화원</span>에서 <span> 야외식물원</span>까지</h3>
+                        <p>(약 880m)</p>
+                    </div>
+                    <div class="dulle-imagebox">
+                        <img src="images/dulle-course3.jpg" alt="자연생태길사진">
+                    </div>
+                    <div class="markers marker3"></div>
+                </div>
+                <div id="dullecourse04" class="tabcontent">
+                    <div class="dulle-textbox">
+                        <p>제<span>4</span>코스</p>
+                        <h3><span>야외식물원</span>에서 <span> 시비쉼터</span>까지</h3>
+                        <p>(약 1.6km)</p>
+                    </div>
+                    <div class="dulle-imagebox">
+                        <img src="images/dulle-course4.jpg" alt="역사문화길사진">
+                    </div>
+                    <div class="markers marker4"></div>
+                </div>
+                <div id="dullecourse05" class="tabcontent">
+                    <div class="dulle-textbox">
+                        <p>제<span>5</span>코스</p>
+                        <h3><span>시비쉼터</span>에서 <span> 케이블카</span>까지</h3>
+                        <p>(약 640m)</p>
+                    </div>
+                    <div class="dulle-imagebox">
+                        <img src="images/dulle-course5.jpg" alt="산림숲길사진">
+                    </div>
+                    <div class="markers marker5"></div>
+                </div>
+            </div>
+        </section>
+        <!-- ----------------------------------------------------------------SECTION-03(DULLE) AREA END -->
+        <!-- ----------------------------------------------------------------SECTION-04(AROUND) AREA START -->
+        <section class="section04 clear-fix" id="around">
+            <div class="titlebox">
+                <h1>NAMSAN<span>AROUND</span></h1>
+                <p>남산만 만나기 아쉬울 때, 추천하는 주변 볼거리</p>
+            </div>
+            <div class="around-background"></div>
+            <div class="container">
+                <div class="around-wrap around-image-01">
+                    <div class="hover-color">
+                        <div class="around-sub-title">한국의 멋</div>
+                        <h2 class="around-title">한옥마을</h2>
+                        <p>과거로 가는 여행,</p>
+                        <p>북촌 한옥마을을 소개합니다.</p>
+                        <a href="https://hanok.seoul.go.kr/front/index.do" class="click">바로가기</a>
+                    </div>
+                </div>
+                <div class="around-wrap around-image-02 around-center">
+                    <div class="hover-color">
+                        <div class="around-sub-title">작은 쉼표</div>
+                        <h2 class="around-title">팔각정</h2>
+                        <p>바쁜 도심 속 작은 쉼표,</p>
+                        <p>마음의 여유를 더하는 팔각정입니다.</p>
+                        <a href="https://www.seoultower.co.kr/" class="click">바로가기</a>
+                    </div>
+                </div>
+                <div class="around-wrap around-image-03">
+                    <div class="hover-color">
+                        <div class="around-sub-title">오감이 즐거운</div>
+                        <h2 class="around-title">국립극장</h2>
+                        <p>관객과 함께 새로운 역사를 만드는</p>
+                        <p>창설 70주년 예술극장입니다.</p>
+                        <a href="https://www.ntok.go.kr/kr/Main/Index" class="click">바로가기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ----------------------------------------------------------------SECTION-04(AROUND) AREA END -->
+        <!-- ----------------------------------------------------------------SECTION-05(GALLERY) AREA START -->
+        <section class="section05" id="gallery">
+            <div class="titlebox">
+                <h1>NAMSAN<span>GALLERY</span></h1>
+                <p>한 장의 사진으로 남긴 남산과 함께한 특별한 순간들</p>
+            </div>
+            <div class="container">
+                <div class="gallery-wrap">
+                    <div class="slider slider-for">
+                    <div>
+                        <img src="images/galleryIMG-b1.jpg" alt="">
+                        <p>남산에서 내려다 본 서울 야경</p>
+                    </div>
+                    <div>
+                        <img src="images/galleryIMG-b2.jpg" alt="">
+                        <p>나무 사이 보이는 N서울타워</p>
+                    </div>
+                    <div>
+                        <img src="images/galleryIMG-b3.jpg" alt="">
+                        <p>새벽5시, 남산</p>
+                    </div>
+                    <div>
+                        <img src="images/galleryIMG-b4.jpg" alt="">
+                        <p>오정색과 어우러지는 </p>
+                    </div>
+                    <div>
+                        <img src="images/galleryIMG-b5.jpg" alt="">
+                        <p>나들이 가기 좋은 날</p>
+                    </div>
+                    </div>
+                    <div class="slider slider-nav">
+                    <div>
+                        <img src="images/galleryIMG-s1.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/galleryIMG-s2.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/galleryIMG-s3.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/galleryIMG-s4.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/galleryIMG-s5.jpg" alt="">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section06" id="way">
+            <div class="titlebox">
+                <h1>NAMSAN<span>WAY TO COME</span></h1>
+                <p>오시는 길</p>
+            </div>
+            <div class="container clear-fix">
+                <div class="way-information">
+                    <ul>
+                        <li class="clear-fix">
+                            <img src="images/way-icon-subway.png" alt="전철역아이콘">
+                            <p>1호선 서울역 : 버스환승센터 5번에서 연계버스 이용</p>
+                        </li>
+                        <li class="clear-fix">
+                            <img src="images/way-icon-bus.png" alt="전철역아이콘">
+                            <p>간선 - 402, 405 : 남산도서관 하차</p>
+                        </li>
+                        <li class="clear-fix">
+                            <img src="images/way-icon-car.png" alt="전철역아이콘">
+                            <p>서울역 → 남대문 → 힐튼호텔 → 남산도서관 앞에서 비보호 좌회전</p>
+                        </li>
+                        <li class="clear-fix">
+                            <img src="images/way-icon-walk.png" alt="전철역아이콘">
+                            <p>2호선 시청앞 하차 (도보 약 30분)<br>4호선 서울역, 회현역 하차 (도보 약 20분)</p>
+                        </li>
+                        <li>
+                            <img src="images/way-park.png" alt="전철역아이콘">
+                            <p>남산동 공영주차장 : 서울시 중구 퇴계로 20길 24 (02-755-7004)<br>남산케이블카 주차장: 서울시 중구 회현동 1가 산 1-19 (02-753-2405)<br>남산공원 주차장 : 서울시 중구 소파로 46 (02-755-2227) <br>국립극장 주차장 : 서울시 중구 장충단로 59 </p>
+                        </li>
+                    </ul>
+                </div>                
+                <div class="way-map">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </section>
+        <!-- ----------------------------------------------------------------SECTION-06(WAY) AREA END -->
+    </div>
+    <!-- <script type="text/javascript" src="slick/slick1.min.js"></script> -->
+    <script type="text/javascript" src="slick/sdk.json"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+</body>
+</html>
