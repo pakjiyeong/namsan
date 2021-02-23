@@ -119,6 +119,9 @@
 }
 /* ---------------------------------------------------------SECTION01 - (HOME) AREA END */
 /* ---------------------------------------------------------SECTION02 - (STORY) AREA START */
+.counterstart {
+    font-size: 0;
+}
 .story-background {
     padding: 50px 0;
     background: #f7f7f7;
@@ -143,6 +146,7 @@
 }
 .story-textbox p {
     line-height: 30px;
+    font-size: 1.3rem;
 }
 /* ---------------------------------------------------------SECTION02 - (STORY) AREA END */
 /* ---------------------------------------------------------SECTION03 - (DULLE) AREA START */
@@ -155,6 +159,7 @@
 .dulle-button {
     position: relative;
     width: 375px;
+    font-size: 1.2rem;
     z-index: 2;
 }
 .dulle-textbox {
