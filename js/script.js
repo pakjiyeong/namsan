@@ -1,6 +1,6 @@
 
 
-// ----------------------------------------------------------------SECTION-02(STORY) AREA START
+// ----------------------------------------------------------------SECTION-01(home) AREA START
     var navbar = document.querySelector(".navbar")
     var ham = document.querySelector(".ham")
     function toggleHamburger(){
@@ -14,7 +14,8 @@
         menuLink.addEventListener("click", toggleHamburger) 
     }
     )
-
+// ----------------------------------------------------------------SECTION-01(home) AREA END 
+// ----------------------------------------------------------------SECTION-02(STORY) AREA START
     function numberCounter(target_frame, target_number) {
     this.count = 0; this.diff = 0;
     this.target_count = parseInt(target_number);
@@ -27,7 +28,7 @@
     this.diff = this.target_count - this.count;
 
     if(this.diff > 0) {
-        self.count += Math.ceil(this.diff / 5);
+        self.count += Math.ceil(this.diff / 10);
     }
     this.target_frame.innerHTML = this.count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 
