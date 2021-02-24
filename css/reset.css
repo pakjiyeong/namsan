@@ -79,16 +79,16 @@ section {
 	z-index: 10;
 }
 .titlebox h1 {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	letter-spacing: 4px;
 	margin-bottom: 20px;
 }
 .titlebox h1 span {
-	margin-left: 2rem;
+	margin-left: 1.5rem;
 	color: #f86b75;
 }
 .titlebox p {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	letter-spacing: 2px;
 	margin-bottom: 55px;
 }
