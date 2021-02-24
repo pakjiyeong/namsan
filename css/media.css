@@ -24,6 +24,10 @@
     .container {
         width: 780px;
     }
+    #home span {
+        display: block;
+        padding: 20px 0;
+    }
     .story-background > .container > div,
     .section04 > .container > div {
         width: 100%;
@@ -47,7 +51,7 @@
     #dullecourse03 > .marker3,
     #dullecourse04 > .marker4,
     #dullecourse05 > .marker5 {
-        left: -46%;
+        left: -28%;
     }
     #dulle .tabcontent {
         width: 80%;
@@ -67,6 +71,9 @@
         display: none;
     }
     #around .around-title:after {
+        display: none;
+    }
+    #section05 .slider-nav {
         display: none;
     }
     .section06 .way-map {

@@ -1,61 +1,13 @@
 
 
 // ----------------------------------------------------------------SECTION-01(home) AREA START
-    var navbar = document.querySelector(".navbar")
-    var ham = document.querySelector(".ham")
-    function toggleHamburger(){
-    navbar.classList.toggle("showNav")
-    ham.classList.toggle("showClose")
-    }
-    ham.addEventListener("click", toggleHamburger)
-    var menuLinks = document.querySelectorAll(".menuLink")
-    menuLinks.forEach( 
-    function(menuLink) { 
-        menuLink.addEventListener("click", toggleHamburger) 
-    }
-    )
+    
 // ----------------------------------------------------------------SECTION-01(home) AREA END 
 // ----------------------------------------------------------------SECTION-02(STORY) AREA START
-    // var counter= 296842;
-
-    // $({ val : 0 }).animate({ val : counter }, {
-    // duration: 2000,
-    // step: function() {
-    //     var num = numberWithCommas(Math.floor(this.val));
-    //     $(".memberCountCon").text(num);
-    // },
-    // complete: function() {
-    //     var num = numberWithCommas(Math.floor(this.val));
-    //     $(".memberCountCon").text(num);
-    // }
-    // });
-
-    // function numberWithCommas(x) {
-    //     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    // }
-    // -----------------------------------------------------
-    //         var counter= 2896887;
-  
-    //         $({ val : 0 }).animate({ val : counter }, {
-    //         duration: 2000,
-    //         step: function() {
-    //             var num = numberWithCommas(Math.floor(this.val));
-    //             $(".memberCountCon").text(num);
-    //         },
-    //         complete: function() {
-    //             var num = numberWithCommas(Math.floor(this.val));
-    //             $(".memberCountCon").text(num);
-    //         }
-    //         });
-
-    //         function numberWithCommas(x) {
-    //             return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    //         }
-
 $(function(){
-    var Offset = $('.counterstart').offset();
+    // var Offset = $('.counterstart').offset();
     $(window).scroll(function(){
-        if($(window).scrollTop()>Offset.top){
+        if($(this).scrollTop()>740){
             function numberCounter(target_frame, target_number) {
                 this.count = 0; this.diff = 0;
                 this.target_count = parseInt(target_number);

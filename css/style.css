@@ -104,12 +104,12 @@
     top: 45%;
 }
 .home-textbox h1 {
-    font-size: 2.8rem;
+    font-size: 3.5rem;
     letter-spacing: -3px;
     color: #f9f9f9;
 }
 .home-textbox span {
-    font-size: 3.75rem;
+    font-size: 5rem;
     margin-left: 5px;
 }
 .section01 .home-imagebox {
@@ -119,9 +119,6 @@
 }
 /* ---------------------------------------------------------SECTION01 - (HOME) AREA END */
 /* ---------------------------------------------------------SECTION02 - (STORY) AREA START */
-.counterstart {
-    font-size: 0;
-}
 .story-background {
     padding: 50px 0;
     background: #f7f7f7;
