@@ -80,9 +80,10 @@
     display: inline;
 }
 .story-titlebox p {
+    font-size: 1.1rem;
 }
 .story-titlebox span {
-    /* font-size: 1.2rem; */
+    font-size: 1.1rem;
     margin: 0 5px;
 }
 .story-textbox {
