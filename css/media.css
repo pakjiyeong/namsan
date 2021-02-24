@@ -19,7 +19,7 @@
 }
 @media(max-width:1000px){
     html, body {
-        /* font-size: 13px; */
+        font-size: 15px;
     }
     .container {
         width: 780px;
@@ -28,13 +28,13 @@
         display: block;
         padding: 20px 0;
     }
-    .story-background > .container > div,
-    .section04 > .container > div {
+    #story .story-background > .container > div,
+    #around > .container > div {
         width: 100%;
         height: 360px;
         float: inherit;
     }
-    .story-center, .around-center {
+    #story .story-center, #around .around-center {
         margin: 0;
     }
     #dulle .dulle-button {
@@ -44,6 +44,10 @@
     #dulle .tablinks {
         width: 19%;
         margin: 0 .5%;
+        line-height: 35px;
+    }
+    .section03 .dulle-button br {
+        display: block;
     }
     #dulle .dulle-map,
     #dullecourse01 > .marker1,
@@ -73,7 +77,10 @@
     #around .around-title:after {
         display: none;
     }
-    #section05 .slider-nav {
+    #gallery .slider-for {
+        height: 350px;
+    }
+    #none {
         display: none;
     }
     .section06 .way-map {
@@ -91,6 +98,9 @@
     }
     .container {
         width: 500px;
+    }
+    .section03 .dulle-textbox br {
+        display: block;
     }
     .tabcontent .dulle-imagebox {
         bottom: 255px;

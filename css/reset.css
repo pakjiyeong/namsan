@@ -79,52 +79,16 @@ section {
 	z-index: 10;
 }
 .titlebox h1 {
-	font-size: 1.87rem;
+	font-size: 2.5rem;
 	letter-spacing: 4px;
 	margin-bottom: 20px;
 }
 .titlebox h1 span {
-	margin-left: 1.25rem;
+	margin-left: 2rem;
 	color: #f86b75;
 }
 .titlebox p {
-	font-size: 1.1rem;
+	font-size: 1.5rem;
 	letter-spacing: 2px;
 	margin-bottom: 55px;
 }
-/*-------------------------------------------------------- COMMON AREA */
-/*-------------------------------------------------------- SECTION02 (STORY) AREA */
-.story-background > .container > div,
-.section04 > .container > div {
-    width: 30%;
-    float: left;
-	text-align: center;
-}
-.story-center, .around-center {
-    margin: 0 5%;
-}
-/*-------------------------------------------------------- SECTION02 (STORY) AREA */
-/*-------------------------------------------------------- SECTION03 (DULLE) AREA */
-.section03 {
-	position: relative;
-}
-.dulle-button > .tablinks {
-	width: 120px;
-	height: 120px;
-	float: left;
-	text-align: center;
-	line-height: 120px;
-	font-weight: 500;
-	margin: 0 5px 5px 0;
-	background-color: #ecf1f5;
-	color: #194c42;
-}
-.dulle-button > .tablinks.active {
-    background: #194c42;
-    color: #f9f9f9;
-}
-
-#dullecourse01, #dullecourse02, #dullecourse03, #dullecourse04, #dullecourse05 {
-	padding-top: 400px;
-}
-/*-------------------------------------------------------- SECTION03 (DULLE) AREA */
