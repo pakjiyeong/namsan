@@ -91,6 +91,16 @@
         width: 100%;
         margin-bottom: 5%;
     }
+    #way .way-information img {
+        margin: 0 auto;
+        float: inherit;
+        display: block;
+        padding: 0;
+    }
+    #way .way-information p {        
+        float: inherit;
+        text-align: center;
+    }
 }
 @media(max-width:780px) {
     html, body {
@@ -109,9 +119,6 @@
     }
     .tabcontent .dulle-imagebox > img {
         height: 110px;
-    }
-    #way .way-information img {
-        width: 40px;
     }
 }
 @media(max-width:500px) {
