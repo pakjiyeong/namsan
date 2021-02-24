@@ -110,6 +110,9 @@
     .tabcontent .dulle-imagebox > img {
         height: 110px;
     }
+    #way .way-information img {
+        width: 40px;
+    }
 }
 @media(max-width:500px) {
     html, body {
