@@ -144,9 +144,10 @@
 .dulle-map {
     position: absolute;
     top: 0;
-    width: 100%;
+    right: 0;
+    width: 50%;
     height: 100%;
-    background-image: url(../images/dulle-bg-map.png);
+    background-image: url(../images/dulleMap.png);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -154,9 +155,10 @@
 #dullecourse01 > .marker1 {
     position: absolute;
     top: 0;
-    width: 100%;
+    right: 0;
+    width: 50%;
     height: 100%;
-    background-image: url(../images/dulle-map-imgcourse1.png);
+    background-image: url(../images/dulleMapcourse1.png);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -164,9 +166,10 @@
 #dullecourse02 > .marker2 {
     position: absolute;
     top: 0;
-    width: 100%;
+    right: 0;
+    width: 50%;
     height: 100%;
-    background-image: url(../images/dulle-map-imgcourse2.png);
+    background-image: url(../images/dulleMapcourse2.png);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -174,9 +177,10 @@
 #dullecourse03 > .marker3 {
     position: absolute;
     top: 0;
-    width: 100%;
+    right: 0;
+    width: 50%;
     height: 100%;
-    background-image: url(../images/dulle-map-imgcourse3.png);
+    background-image: url(../images/dulleMapcourse3.png);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -184,9 +188,10 @@
 #dullecourse04 > .marker4 {
     position: absolute;
     top: 0;
-    width: 100%;
+    right: 0;
+    width: 50%;
     height: 100%;
-    background-image: url(../images/dulle-map-imgcourse4.png);
+    background-image: url(../images/dulleMapcourse4.png);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -194,9 +199,10 @@
 #dullecourse05 > .marker5 {
     position: absolute;
     top: 0;
-    width: 100%;
+    right: 0;
+    width: 50%;
     height: 100%;
-    background-image: url(../images/dulle-map-imgcourse5.png);
+    background-image: url(../images/dulleMapcourse5.png);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;

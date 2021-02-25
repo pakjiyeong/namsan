@@ -7,7 +7,7 @@
 $(function(){
     // var Offset = $('.counterstart').offset();
     $(window).scroll(function(){
-        if($(this).scrollTop()>740){
+        if($(this).scrollTop()>=740){
             function numberCounter(target_frame, target_number) {
                 this.count = 0; this.diff = 0;
                 this.target_count = parseInt(target_number);

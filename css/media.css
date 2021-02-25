@@ -14,7 +14,8 @@
         left: 350px;
     }
     .tabcontent > .dulle-textbox {
-        width: 45%;
+        width: 100%;
+        padding-top: 25%;
     }
 }
 @media(max-width:1000px){
@@ -46,27 +47,20 @@
         margin: 0 .5%;
         line-height: 35px;
     }
-    .section03 .dulle-button br {
-        display: block;
-    }
+    
     #dulle .dulle-map,
-    #dullecourse01 > .marker1,
-    #dullecourse02 > .marker2,
-    #dullecourse03 > .marker3,
-    #dullecourse04 > .marker4,
-    #dullecourse05 > .marker5 {
-        left: -28%;
+    #dulle #dullecourse01 > .marker1,
+    #dulle #dullecourse02 > .marker2,
+    #dulle #dullecourse03 > .marker3,
+    #dulle #dullecourse04 > .marker4,
+    #dulle #dullecourse05 > .marker5 {
+        top: 90px;
+        left: 10%;
+        width: 80%;
     }
     #dulle .tabcontent {
         width: 80%;
         margin: 0 auto;
-    }
-    #dulle .tabcontent > div:first-child {
-        width: 100%;
-        margin-top: 15%;
-    }
-    #dulle .tabcontent > .dulle-imagebox {
-        left: 62%;
     }
     #around > .titlebox {
         color: #343434;
@@ -119,6 +113,9 @@
     }
     .tabcontent .dulle-imagebox > img {
         height: 110px;
+    }
+    .section03 .dulle-button br {
+        display: block;
     }
 }
 @media(max-width:500px) {
