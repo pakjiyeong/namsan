@@ -1,57 +1,4 @@
-
-
 // ----------------------------------------------------------------SECTION-01(home) AREA START
-// $(document).ready(function() {
-//     var time = 1.2;
-//     var $bar,
-//       $slick,
-//       isPause,
-//       tick,
-//       percentTime;
-  
-//     $slick = $('.slider');
-//     $slick.slick({
-//       arrows: true,
-//       speed: 1200,
-//       adaptiveHeight: false
-//     });
-  
-//     $bar = $('.slider-progress .progress');
-  
-//     function startProgressbar() {
-//       resetProgressbar();
-//       percentTime = 0;
-//       isPause = false;
-//       tick = setInterval(interval, 30);
-//     }
-  
-//     function interval() {
-//       if (isPause === false) {
-//         percentTime += 1 / (time + 0.1);
-//         $bar.css({
-//           width: percentTime + "%"
-//         });
-//         if (percentTime >= 100) {
-//           $slick.slick('slickNext');
-//           startProgressbar();
-//         }
-//       }
-//     }
-  
-//     function resetProgressbar() {
-//       $bar.css({
-//         width: 0 + '%'
-//       });
-//       clearTimeout(tick);
-//     }
-  
-//     startProgressbar();
-  
-//     $('.slick-next, .slick-prev').click(function() {
-//       startProgressbar();
-//     });
-//   });
-
   $(function(){
       $('.section1bg').animate({
           width:100+'%',
@@ -61,9 +8,8 @@
 // ----------------------------------------------------------------SECTION-01(home) AREA END 
 // ----------------------------------------------------------------SECTION-02(STORY) AREA START
 $(function(){
-    // var Offset = $('.counterstart').offset();
     $(window).scroll(function(){
-        if($(this).scrollTop()<700){
+        if($(this).scrollTop()<500){
             function numberCounter(target_frame, target_number) {
                 this.count = 0; this.diff = 0;
                 this.target_count = parseInt(target_number);
