@@ -62,6 +62,9 @@
         width: 80%;
         margin: 0 auto;
     }
+    .tabcontent > .dulle-textbox {
+        padding-top: 50%;
+    }
     #around > .titlebox {
         color: #343434;
     }
