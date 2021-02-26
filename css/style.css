@@ -46,12 +46,9 @@
     background-size: cover;
 }
 .section01 > div{
-    width: 300px;
-    height: 300px;
-    /* position: absolute; */
-    /* top: 45%; */
-    margin-left: 20%;
-    background: red;
+    position: absolute;
+    top: 45%;
+    left: 20%;
     /* background: rgba(0, 0, 0, 0.5); */
 }
 .section01 h1 {
@@ -118,7 +115,9 @@
     cursor: pointer;
 }
 .section03 .container {
+    position: relative;
     padding-top: 50px;
+    height: 100%;
 }
 .section03 br {
     display: none;
@@ -129,10 +128,6 @@
 }
 #dullecourse01, #dullecourse02, #dullecourse03, #dullecourse04, #dullecourse05 {
 	padding-top: 400px;
-}
-.section03 .container {
-    position: relative;
-    height: 100%;
 }
 .dulle-button {
     position: relative;
@@ -232,9 +227,10 @@
 /* ---------------------------------------------------------SECTION04 - (AROUND) AREA START */
 .section04 {
     position: relative;
+    background: #f9f9f9;
 }
 .section04 .titlebox {
-    color: #f9f9f9;
+    color: #f7f7f7;
 }
 .around-background {
     position: absolute;
@@ -324,6 +320,9 @@
     border: 1px solid #f9f9f9;
     border-radius: 5px;
     font-weight: bold;
+    display: none;
+}
+.section04 br {
     display: none;
 }
 /* ---------------------------------------------------------SECTION04 - (AROUND) AREA END */

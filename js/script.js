@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------SECTION-02(STORY) AREA START
 $(function(){
     $(window).scroll(function(){
-        if($(this).scrollTop()<500){
+        if($(this).scrollTop()<520){
             function numberCounter(target_frame, target_number) {
                 this.count = 0; this.diff = 0;
                 this.target_count = parseInt(target_number);
@@ -27,7 +27,7 @@ $(function(){
                 }
                 };
                 new numberCounter("counter1", 2896887);
-                new numberCounter("counter2", 840);
+                new numberCounter("counter2", 8400000);
                 new numberCounter("counter3", 700);
         }
     });
