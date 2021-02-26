@@ -1,10 +1,10 @@
 
 @media(max-width:1251px){
     html, body {
-        font-size: 14px;
+        /* font-size: 14px; */
     }
     .container {
-        width: 1000px;
+        width: 999px;
         margin: 0 auto;
     }
     .navi {
@@ -20,10 +20,10 @@
 }
 @media(max-width:1000px){
     html, body {
-        font-size: 13px;
+        font-size: 14px;
     }
     .container {
-        width: 780px;
+        width: 779px;
     }
     #home span {
         display: block;
@@ -98,6 +98,9 @@
         float: inherit;
         text-align: center;
     }
+    #way br {
+        display: inherit;
+    }
 }
 @media(max-width:780px) {
     html, body {
@@ -119,6 +122,15 @@
     }
     .section03 .dulle-button br {
         display: block;
+    }
+    #gallery .gallery-wrapMo {
+        display: block;
+    }
+    #gallery .gallery-wrap {
+        display: none;
+    }
+    #gallery .gallery-wrapMo button {
+        display: block !important;
     }
 }
 @media(max-width:500px) {

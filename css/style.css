@@ -339,7 +339,7 @@
     width: 100%;
       background: #f9f9f9;
       color: #194c42;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       line-height: 50px;
       position: relative;
       text-align: center;
@@ -352,6 +352,28 @@
   }
   .slider-nav img {
     width: 100%;
+  }
+  .gallery-wrapMo {
+      display: none;
+  }
+  .gallery-wrapMo img {
+      width: 100%;
+  }
+  #gallery button {
+      display: none !important;
+  }
+  .slick-prev {
+    left: 10px;
+    z-index: 1;
+  }
+  .slick-prev:before {
+    font-size: 28px;
+  }
+  .slick-next {
+      right: 10px;
+  }
+  .slick-next:before {
+    font-size: 28px;
   }
 /* ---------------------------------------------------------SECTION05 - (GALLERY) AREA END */
 /* ---------------------------------------------------------SECTION06 - (WAY) AREA START */
@@ -391,5 +413,8 @@
     float: left;
     line-height: 40px;
     font-size: 1.1rem;
+}
+.section06 br {
+    display: none;
 }
 /* ---------------------------------------------------------SECTION06 - (WAY) AREA END */
