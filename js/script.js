@@ -54,14 +54,14 @@ $(function(){
 
 // ----------------------------------------------------------------SECTION-04(AROUND) AREA START
     $(function(){
-        $(".around-image-01").on('click mouseover', function (){
-            $(".around-background").css("background-image","url(images/around-image-01.png");
+        $(".around-image-01").on('mouseover click', function (){
+            $(".around-background").css({"background-image":"url(images/around-image-01.png","transition":"all 1.5s"});
         });
-        $(".around-image-02").on('click mouseover', function (){
-            $(".around-background").css("background-image","url(images/around-image-02.png");
+        $(".around-image-02").on('mouseover click', function (){
+            $(".around-background").css({"background-image":"url(images/around-image-02.png","transition":"all 1.5s"});
         });
-        $(".around-image-03").on('click mouseover', function (){
-            $(".around-background").css("background-image","url(images/around-image-03.png");
+        $(".around-image-03").on('mouseover click', function (){
+            $(".around-background").css({"background-image":"url(images/around-image-03.png","transition":"all 1.5s"});
         });
     });
         

@@ -37,6 +37,7 @@
 /* ---------------------------------------------------------HEADER AREA END */
 /* ---------------------------------------------------------SECTION01 - (HOME) AREA START */
 .section01 {
+    position: relative;
     width: 100%;
     height: 937px;
     background-image: url(../images/homeBg1.jpg);
@@ -44,19 +45,21 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.section01 .home-textbox {
-    position: absolute;
-    top: 45%;
+.section01 > div{
+    width: 300px;
+    height: 300px;
+    /* position: absolute; */
+    /* top: 45%; */
     margin-left: 20%;
-    z-index: 100;
+    background: red;
     /* background: rgba(0, 0, 0, 0.5); */
 }
-.home-textbox h1 {
+.section01 h1 {
     font-size: 3rem;
     letter-spacing: -3px;
     color: #f9f9f9;
 }
-.home-textbox span {
+.section01 span {
     font-size: 4.2rem;
     margin-left: 5px;
 }
@@ -112,6 +115,10 @@
 	margin: 0 5px 5px 0;
 	background-color: #ecf1f5;
 	color: #194c42;
+    cursor: pointer;
+}
+.section03 .container {
+    padding-top: 50px;
 }
 .section03 br {
     display: none;
@@ -146,6 +153,7 @@
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    /* background-size: cover; */
 }
 #dullecourse01 > .marker1 {
     position: absolute;
@@ -233,7 +241,6 @@
     top: 0;
     width: 100%;
     height: 600px;
-    transition: all 1s;
     background-image: url(../images/around-image-01.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -362,13 +369,17 @@
     z-index: 1;
   }
   .slick-prev:before {
-    font-size: 28px;
+    content: url(../images/arrow-left.png);
   }
   .slick-next {
       right: 10px;
+      width: 30px;
+      height: 30px;
   }
   .slick-next:before {
-    font-size: 28px;
+      content: url(../images/arrow-right.png);
+      clear: both;
+      display: block;
   }
 /* ---------------------------------------------------------SECTION05 - (GALLERY) AREA END */
 /* ---------------------------------------------------------SECTION06 - (WAY) AREA START */
