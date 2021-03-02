@@ -1,4 +1,10 @@
 // ----------------------------------------------------------------SECTION-01(home) AREA START
+$(function(){
+    $('.ham-btn').click(function(){
+        $('.menu-mobile').toggleClass("menu-view");
+        $(this).find(".bar").toggleClass("bar-X");
+    });
+});
 // ----------------------------------------------------------------SECTION-01(home) AREA END 
 // ----------------------------------------------------------------SECTION-02(STORY) AREA START
 $(function(){
@@ -36,7 +42,7 @@ $(function(){
 // ----------------------------------------------------------------SECTION-02(STORY) AREA END 
 
 // ----------------------------------------------------------------SECTION-03(DULLE) AREA START
-    function openCity(evt, cityName) {
+function openCity(evt, cityName) {
         var i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tabcontent");
         for (i = 0; i < tabcontent.length; i++) {
