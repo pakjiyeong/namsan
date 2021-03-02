@@ -25,6 +25,12 @@
         padding-top: 30px;
         margin-top: 30px;
     }
+    .way-information .margin50 {
+        margin-left: 0;
+    }
+    .way-map #map {
+        height: 560px;
+    }
 }
 @media(max-width:1000px){
     html, body {
